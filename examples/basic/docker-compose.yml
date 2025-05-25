@@ -10,7 +10,8 @@ services:
   db:
     image: mysql:8.0
     environment:
-      - MYSQL_ROOT_PASSWORD=gWddriPw1a8aa77D
+      - MYSQL_HOST=ih1a.your-database.de
+      - MYSQL_PORT=3306
       - MYSQL_ROOT_PASSWORD=gWddriPw1a8aa77D
       - MYSQL_DATABASE=mautic_db
       - MYSQL_USER=mautic_db_user
