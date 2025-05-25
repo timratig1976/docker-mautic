@@ -36,8 +36,8 @@ services:
     volumes: *mautic-volumes
 
     environment:
-      - DOCKER_MAUTIC_LOAD_TEST_DATA=${DOCKER_MAUTIC_LOAD_TEST_DATA}
-      - DOCKER_MAUTIC_RUN_MIGRATIONS=${DOCKER_MAUTIC_RUN_MIGRATIONS}
+      - DOCKER_MAUTIC_LOAD_TEST_DATA=true
+      - DOCKER_MAUTIC_RUN_MIGRATIONS=true
     env_file:
       - .mautic_env
     healthcheck:
@@ -87,4 +87,4 @@ volumes:
 
 networks:
   default:
-    name: ${COMPOSE_PROJECT_NAME}-docker
+    name: tr-docker
