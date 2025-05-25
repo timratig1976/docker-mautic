@@ -1,6 +1,5 @@
 # use this file for environment variables that can be used.
 # see https://docs.mautic.org/en/5.x/
-
 MAUTIC_DB_HOST=ih1a.your-database.de
 MAUTIC_DB_PORT=3306
 MAUTIC_DB_DATABASE=mautic_db
