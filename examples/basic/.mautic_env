@@ -5,7 +5,7 @@ MAUTIC_DB_HOST=ih1a.your-database.de
 MAUTIC_DB_PORT=3306
 MAUTIC_DB_DATABASE=mautic_db
 MAUTIC_DB_USER=mautic_db_user
-MAUTIC_DB_PASSWORD=
+MAUTIC_DB_PASSWORD=gWddriPw1a8aa77D
 
 MAUTIC_MESSENGER_DSN_EMAIL="doctrine://default"
 MAUTIC_MESSENGER_DSN_HIT="doctrine://default"
